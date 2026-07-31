@@ -1,0 +1,5 @@
+import { AppShell } from "@/components/shell/AppShell";
+
+export default function SettingsPage() {
+  return <AppShell><div className="mx-auto max-w-3xl py-14"><h1 className="text-5xl font-black">Settings</h1><div className="mt-8 space-y-4 rounded-3xl border border-white/10 bg-white/10 p-6"><label className="block"><span className="text-sm text-slate-400">Theme</span><select className="mt-2 w-full rounded-2xl bg-white/10 p-3"><option>System dark premium</option><option>Aurora contrast</option><option>Midnight minimal</option></select></label><label className="block"><span className="text-sm text-slate-400">Language</span><select className="mt-2 w-full rounded-2xl bg-white/10 p-3"><option>English</option><option>Spanish</option><option>French</option><option>German</option></select></label><div><h2 className="font-bold">Free forever account</h2><p className="mt-2 text-slate-400">All settings, playback, playlists, uploads, and discovery features remain available to every user without payment or ads.</p></div></div></div></AppShell>;
+}
