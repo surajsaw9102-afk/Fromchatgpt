@@ -1,0 +1,19 @@
+{
+  "name": "fromchatgpt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Production music platform features",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "echo \"no build step configured\"",
+    "test": "echo \"No tests configured\" && exit 0",
+    "lint": "echo \"No linter configured\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT"
+}
